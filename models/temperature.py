@@ -12,6 +12,6 @@ class Temperature(BaseModel):
     unit: TemperatureUnit = TemperatureUnit.Fahrenheit
 
 
-class RequestBodyEMC(BaseModel):
+class Climate(BaseModel):
     temperature: Temperature
     relative_humidity: float
